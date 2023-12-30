@@ -1,4 +1,7 @@
-let numbers: number [] = [];
-numbers[0] = 5;
-numbers[1] = 10;
-console.log(numbers)
+// Touples type
+let user: [number, string] = [1, 'Rahad']       // you can use more than 2 values here. But 2 is prefered
+
+user[0].toFixed(2);
+user[1].length
+console.log(user);
+

@@ -1,6 +1,6 @@
 "use strict";
-let numbers = [];
-numbers[0] = 5;
-numbers[1] = 10;
-console.log(numbers);
+let user = [1, 'Rahad'];
+user[0].toFixed(2);
+user[1].length;
+console.log(user);
 //# sourceMappingURL=index.js.map
