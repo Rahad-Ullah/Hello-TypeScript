@@ -1,10 +1,6 @@
 "use strict";
-let sales = 50000;
-let course = 'TypeScript';
-let is_available = true;
-let level;
-function render(document) {
-    console.log(document);
-}
-render('hello');
+let numbers = [];
+numbers[0] = 5;
+numbers[1] = 10;
+console.log(numbers);
 //# sourceMappingURL=index.js.map
