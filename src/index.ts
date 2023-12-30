@@ -1,7 +1,10 @@
-// Touples type
-let user: [number, string] = [1, 'Rahad']       // you can use more than 2 values here. But 2 is prefered
+// Enums type
 
-user[0].toFixed(2);
-user[1].length
-console.log(user);
+// const small = 1;
+// const medium = 2;
+// const large = 3;
 
+// PascalCase
+const enum Size { Small = 1, Medium, Large}
+let mySize: Size = Size.Medium;
+console.log(mySize);
