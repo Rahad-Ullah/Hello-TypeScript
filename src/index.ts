@@ -1,10 +1,11 @@
-// Enums type
+// Functions
 
-// const small = 1;
-// const medium = 2;
-// const large = 3;
+function calculateTax(income: number, taxYear: number = 2022): number{      // set parameter and return type
+    if(income < 50000 && taxYear < 2023){
+        return income * 0.3;
+    }
+    return income * 0.1;       // must return something as default or remove return type
+}
 
-// PascalCase
-const enum Size { Small = 1, Medium, Large}
-let mySize: Size = Size.Medium;
-console.log(mySize);
+let tax = calculateTax(60_000)
+console.log(tax);
