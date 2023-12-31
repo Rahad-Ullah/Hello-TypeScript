@@ -3,7 +3,14 @@
 let employee: {
     readonly id: number,
     name: string
-} = { id: 1, name: ''}
+    retire: (date: Date) => void
+} = { id: 1,
+    name: '',
+    retire: (date: Date) =>{
+        console.log(date);
+        
+    }
+}
 
 
 console.log(employee);
